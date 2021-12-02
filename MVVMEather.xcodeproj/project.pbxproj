@@ -11,6 +11,8 @@
 		ED822FB427587BAF00B69E77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED822FB327587BAF00B69E77 /* ContentView.swift */; };
 		ED822FB627587BB000B69E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED822FB527587BB000B69E77 /* Assets.xcassets */; };
 		ED822FB927587BB000B69E77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED822FB827587BB000B69E77 /* Preview Assets.xcassets */; };
+		ED822FC027587BD600B69E77 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED822FBF27587BD600B69E77 /* Models.swift */; };
+		ED822FC227587BE200B69E77 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED822FC127587BE200B69E77 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		ED822FB327587BAF00B69E77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED822FB527587BB000B69E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED822FB827587BB000B69E77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED822FBF27587BD600B69E77 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		ED822FC127587BE200B69E77 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				ED822FB327587BAF00B69E77 /* ContentView.swift */,
 				ED822FB527587BB000B69E77 /* Assets.xcassets */,
 				ED822FB727587BB000B69E77 /* Preview Content */,
+				ED822FBF27587BD600B69E77 /* Models.swift */,
+				ED822FC127587BE200B69E77 /* ViewModel.swift */,
 			);
 			path = MVVMEather;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED822FC027587BD600B69E77 /* Models.swift in Sources */,
 				ED822FB427587BAF00B69E77 /* ContentView.swift in Sources */,
+				ED822FC227587BE200B69E77 /* ViewModel.swift in Sources */,
 				ED822FB227587BAF00B69E77 /* MVVMEatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
